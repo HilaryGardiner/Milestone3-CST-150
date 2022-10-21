@@ -1,0 +1,242 @@
+namespace InventoryApp2
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.addShoeButton1 = new System.Windows.Forms.Button();
+            this.exitButton2 = new System.Windows.Forms.Button();
+            this.brandInputTextBox1 = new System.Windows.Forms.TextBox();
+            this.modelInputTextBox2 = new System.Windows.Forms.TextBox();
+            this.priceInputTextBox3 = new System.Windows.Forms.TextBox();
+            this.shoeDataLabel1 = new System.Windows.Forms.Label();
+            this.selectAShoeLabel2 = new System.Windows.Forms.Label();
+            this.shoeOutputListBox1 = new System.Windows.Forms.ListBox();
+            this.brandLabel3 = new System.Windows.Forms.Label();
+            this.modelLabel4 = new System.Windows.Forms.Label();
+            this.priceLabel5 = new System.Windows.Forms.Label();
+            this.deleteButton3 = new System.Windows.Forms.Button();
+            this.inventoryTotalButton4 = new System.Windows.Forms.Button();
+            this.inventoryTotalTextBox1 = new System.Windows.Forms.TextBox();
+            this.searchButton1 = new System.Windows.Forms.Button();
+            this.searchInputTextBox4 = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // addShoeButton1
+            // 
+            this.addShoeButton1.BackColor = System.Drawing.Color.ForestGreen;
+            this.addShoeButton1.Location = new System.Drawing.Point(50, 334);
+            this.addShoeButton1.Name = "addShoeButton1";
+            this.addShoeButton1.Size = new System.Drawing.Size(104, 54);
+            this.addShoeButton1.TabIndex = 0;
+            this.addShoeButton1.Text = "Add Shoe";
+            this.addShoeButton1.UseVisualStyleBackColor = false;
+            this.addShoeButton1.Click += new System.EventHandler(this.addShoeButton1_Click);
+            // 
+            // exitButton2
+            // 
+            this.exitButton2.BackColor = System.Drawing.Color.Yellow;
+            this.exitButton2.Location = new System.Drawing.Point(707, 398);
+            this.exitButton2.Name = "exitButton2";
+            this.exitButton2.Size = new System.Drawing.Size(81, 40);
+            this.exitButton2.TabIndex = 1;
+            this.exitButton2.Text = "Exit";
+            this.exitButton2.UseVisualStyleBackColor = false;
+            this.exitButton2.Click += new System.EventHandler(this.exitButton2_Click);
+            // 
+            // brandInputTextBox1
+            // 
+            this.brandInputTextBox1.Location = new System.Drawing.Point(170, 71);
+            this.brandInputTextBox1.Name = "brandInputTextBox1";
+            this.brandInputTextBox1.Size = new System.Drawing.Size(100, 23);
+            this.brandInputTextBox1.TabIndex = 2;
+            // 
+            // modelInputTextBox2
+            // 
+            this.modelInputTextBox2.Location = new System.Drawing.Point(170, 127);
+            this.modelInputTextBox2.Name = "modelInputTextBox2";
+            this.modelInputTextBox2.Size = new System.Drawing.Size(100, 23);
+            this.modelInputTextBox2.TabIndex = 3;
+            // 
+            // priceInputTextBox3
+            // 
+            this.priceInputTextBox3.Location = new System.Drawing.Point(170, 197);
+            this.priceInputTextBox3.Name = "priceInputTextBox3";
+            this.priceInputTextBox3.Size = new System.Drawing.Size(100, 23);
+            this.priceInputTextBox3.TabIndex = 4;
+            // 
+            // shoeDataLabel1
+            // 
+            this.shoeDataLabel1.AutoSize = true;
+            this.shoeDataLabel1.Location = new System.Drawing.Point(50, 23);
+            this.shoeDataLabel1.Name = "shoeDataLabel1";
+            this.shoeDataLabel1.Size = new System.Drawing.Size(93, 15);
+            this.shoeDataLabel1.TabIndex = 5;
+            this.shoeDataLabel1.Text = "Enter Shoe Data:";
+            // 
+            // selectAShoeLabel2
+            // 
+            this.selectAShoeLabel2.AutoSize = true;
+            this.selectAShoeLabel2.Location = new System.Drawing.Point(457, 23);
+            this.selectAShoeLabel2.Name = "selectAShoeLabel2";
+            this.selectAShoeLabel2.Size = new System.Drawing.Size(79, 15);
+            this.selectAShoeLabel2.TabIndex = 6;
+            this.selectAShoeLabel2.Text = "Select a Shoe:";
+            // 
+            // shoeOutputListBox1
+            // 
+            this.shoeOutputListBox1.FormattingEnabled = true;
+            this.shoeOutputListBox1.ItemHeight = 15;
+            this.shoeOutputListBox1.Location = new System.Drawing.Point(457, 48);
+            this.shoeOutputListBox1.Name = "shoeOutputListBox1";
+            this.shoeOutputListBox1.Size = new System.Drawing.Size(243, 139);
+            this.shoeOutputListBox1.TabIndex = 7;
+            this.shoeOutputListBox1.SelectedIndexChanged += new System.EventHandler(this.shoeOutputListBox1_SelectedIndexChanged);
+            // 
+            // brandLabel3
+            // 
+            this.brandLabel3.AutoSize = true;
+            this.brandLabel3.Location = new System.Drawing.Point(70, 79);
+            this.brandLabel3.Name = "brandLabel3";
+            this.brandLabel3.Size = new System.Drawing.Size(41, 15);
+            this.brandLabel3.TabIndex = 8;
+            this.brandLabel3.Text = "Brand:";
+            // 
+            // modelLabel4
+            // 
+            this.modelLabel4.AutoSize = true;
+            this.modelLabel4.Location = new System.Drawing.Point(70, 135);
+            this.modelLabel4.Name = "modelLabel4";
+            this.modelLabel4.Size = new System.Drawing.Size(44, 15);
+            this.modelLabel4.TabIndex = 9;
+            this.modelLabel4.Text = "Model:";
+            // 
+            // priceLabel5
+            // 
+            this.priceLabel5.AutoSize = true;
+            this.priceLabel5.Location = new System.Drawing.Point(70, 205);
+            this.priceLabel5.Name = "priceLabel5";
+            this.priceLabel5.Size = new System.Drawing.Size(36, 15);
+            this.priceLabel5.TabIndex = 10;
+            this.priceLabel5.Text = "Price:";
+            // 
+            // deleteButton3
+            // 
+            this.deleteButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.deleteButton3.Location = new System.Drawing.Point(556, 229);
+            this.deleteButton3.Name = "deleteButton3";
+            this.deleteButton3.Size = new System.Drawing.Size(105, 45);
+            this.deleteButton3.TabIndex = 11;
+            this.deleteButton3.Text = "Delete";
+            this.deleteButton3.UseVisualStyleBackColor = false;
+            this.deleteButton3.Click += new System.EventHandler(this.deleteButton3_Click);
+            // 
+            // inventoryTotalButton4
+            // 
+            this.inventoryTotalButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.inventoryTotalButton4.Location = new System.Drawing.Point(556, 308);
+            this.inventoryTotalButton4.Name = "inventoryTotalButton4";
+            this.inventoryTotalButton4.Size = new System.Drawing.Size(105, 51);
+            this.inventoryTotalButton4.TabIndex = 12;
+            this.inventoryTotalButton4.Text = "Inventory Total";
+            this.inventoryTotalButton4.UseVisualStyleBackColor = false;
+            this.inventoryTotalButton4.Click += new System.EventHandler(this.inventoryTotalButton4_Click);
+            // 
+            // inventoryTotalTextBox1
+            // 
+            this.inventoryTotalTextBox1.Location = new System.Drawing.Point(556, 365);
+            this.inventoryTotalTextBox1.Name = "inventoryTotalTextBox1";
+            this.inventoryTotalTextBox1.Size = new System.Drawing.Size(100, 23);
+            this.inventoryTotalTextBox1.TabIndex = 13;
+            // 
+            // searchButton1
+            // 
+            this.searchButton1.BackColor = System.Drawing.Color.Blue;
+            this.searchButton1.Location = new System.Drawing.Point(305, 334);
+            this.searchButton1.Name = "searchButton1";
+            this.searchButton1.Size = new System.Drawing.Size(113, 54);
+            this.searchButton1.TabIndex = 14;
+            this.searchButton1.Text = "Search";
+            this.searchButton1.UseVisualStyleBackColor = false;
+            this.searchButton1.Click += new System.EventHandler(this.searchButton1_Click);
+            // 
+            // searchInputTextBox4
+            // 
+            this.searchInputTextBox4.Location = new System.Drawing.Point(305, 272);
+            this.searchInputTextBox4.Name = "searchInputTextBox4";
+            this.searchInputTextBox4.Size = new System.Drawing.Size(206, 23);
+            this.searchInputTextBox4.TabIndex = 15;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::InventoryApp2.Properties.Resources.Shoe_Image;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.searchInputTextBox4);
+            this.Controls.Add(this.searchButton1);
+            this.Controls.Add(this.inventoryTotalTextBox1);
+            this.Controls.Add(this.inventoryTotalButton4);
+            this.Controls.Add(this.deleteButton3);
+            this.Controls.Add(this.priceLabel5);
+            this.Controls.Add(this.modelLabel4);
+            this.Controls.Add(this.brandLabel3);
+            this.Controls.Add(this.shoeOutputListBox1);
+            this.Controls.Add(this.selectAShoeLabel2);
+            this.Controls.Add(this.shoeDataLabel1);
+            this.Controls.Add(this.priceInputTextBox3);
+            this.Controls.Add(this.modelInputTextBox2);
+            this.Controls.Add(this.brandInputTextBox1);
+            this.Controls.Add(this.exitButton2);
+            this.Controls.Add(this.addShoeButton1);
+            this.Name = "Form1";
+            this.Text = "Shoe Inventory";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Button addShoeButton1;
+        private Button exitButton2;
+        private TextBox brandInputTextBox1;
+        private TextBox modelInputTextBox2;
+        private TextBox priceInputTextBox3;
+        private Label shoeDataLabel1;
+        private Label selectAShoeLabel2;
+        private ListBox shoeOutputListBox1;
+        private Label brandLabel3;
+        private Label modelLabel4;
+        private Label priceLabel5;
+        private Button deleteButton3;
+        private Button inventoryTotalButton4;
+        private TextBox inventoryTotalTextBox1;
+        private Button searchButton1;
+        private TextBox searchInputTextBox4;
+    }
+}
